@@ -1,0 +1,22 @@
+{
+  "name": "aurex",
+  "version": "1.1.5",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "inspect": "node app/Aurex.mjs"
+  },
+  "dependencies": {
+    "@coinbase/wallet-sdk": "^4.3.4",
+    "@coinbase/onchainkit": "^1.1.2",
+    "@coinbase/cdp-sdk": "^1.40.1",
+    "@coinbase/agentkit": "^0.10.3",
+    "@coinbase/coinbase-sdk": "^1.0.0",
+    "@base-org/account-sdk": "^2.5.1",
+    "@base-org/node": "^1.0.0",
+    "viem": "^2.21.0",
+    "ethers": "^6.13.4",
+    "web3": "^4.12.1"
+  }
+}
